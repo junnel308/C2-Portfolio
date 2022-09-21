@@ -9,37 +9,55 @@ body {
 }
 
 header {
-    padding: 10px;
+    display: block;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 10px green;
-    background-color: rgb(191, 245, 222);
+    border-bottom: 100px green;
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    background-color: rgb(158, 201, 206);
 }
 
-nav {
-    padding-top: 15px;
-    margin-right: 10px;
-    float: right;
+#wrap {
+    height: 130px;
+    position: relative;
+    background: url(/Users/jp/bootcamp/C2-Portfolio/C2-Portfolio/assets/images/pattern-image.jpeg) no-repeat center;
+    background-size: 650%;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(169, 99, 67);
+}
+
+#nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    text-align: center;
+    list-style: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 28px;
 }
 
-ul li {
+#nav li {
     display: inline-block;
     margin-left: 25px;
     list-style: none;
 }
 
 a {
-    color:rgb(85, 85, 118);
+    display: inline-block;
+    color:rgb(135, 41, 41);
     text-decoration: none;
-    text-align: center;
 }
 
 h1 {
-    display: inline-block;
+    display: block;
     font-size: 50px;
     justify-content: center;
     text-align: center;
+    position: relative;
     color: rgb(0, 0, 0);
 }
 
